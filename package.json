@@ -1,0 +1,19 @@
+{
+  "name": "exe-admin",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "run ./src/index.ts",
+    "tsc": "tsc --watch --noEmit",
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "noarg": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.7.2"
+  }
+}
